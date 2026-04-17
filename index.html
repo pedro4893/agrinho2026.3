@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Agro Sustentável | Futuro Forte</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="logo">Agro<span>Sustentável</span></div>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#ia">Simulador IA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Produção que Nutre, Cuidado que Preserva.</h1>
+        <p>O equilíbrio perfeito entre a força do campo e o futuro do planeta.</p>
+    </section>
+
+    <section id="ia" class="ia-container">
+        <h2>Simulador de Impacto Sustentável</h2>
+        <p>Insira os dados da sua produção para que nossa IA analise o equilíbrio ambiental.</p>
+        <div class="card-ia">
+            <input type="number" id="area" placeholder="Área cultivada (hectares)">
+            <input type="number" id="preservacao" placeholder="Área de preservação (%)">
+            <button onclick="analisarAgro()">Analisar Produção</button>
+            <div id="resultado" class="resultado"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
