@@ -4,3 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: auto;
 }
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
