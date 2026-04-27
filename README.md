@@ -1,43 +1,72 @@
+# 🌱 CampoForte: Tecnologia que cultiva o futuro
+
+## Sua colheita com mais resultado, menos esforço e respeito pela terra
+
+A agricultura do amanhã começa hoje. Nosso site foi criado para levar tecnologia e suporte direto ao agricultor — do pequeno ao grande produtor — transformando desafios do campo em colheitas mais fortes, sustentáveis e lucrativas.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🚜 O problema que a gente resolve
 
-- **HTML5** – estrutura semântica das páginas.
-- **CSS3** – estilização customizada com foco nas cores verde, azul e branco.
-- **JavaScript** (opcional) – para interatividade, como menus responsivos ou animações suaves.
+Você trabalha a terra com dedicação, mas sente que poderia colher muito mais sem desgastar o solo nem sua saúde. A falta de integração entre técnicas modernas e preservação ambiental ainda trava o potencial da sua lavoura.
 
----
+**Resultado típico hoje:** colheita aproveitando apenas ~70% do potencial.
 
-## 🌟 Funcionalidades Principais
-
-- Navegação intuitiva entre as seções (páginas dentro da pasta `pages/`).
-- Conteúdo acessível sobre agroecologia, manejo sustentável e biodiversidade.
-- Design responsivo (adaptado para celulares, tablets e desktops).
-- Paleta de cores harmoniosa que reforça a mensagem ambiental.
+**Com nossa abordagem:** você chega a **99,9% de aproveitamento**, com equilíbrio total entre produtividade e bem-estar da terra.
 
 ---
 
-## 🔧 Como Visualizar o Site Localmente
+## 💡 Nossa solução: suporte técnico + tecnologia de precisão
 
-1. Clone este repositório ou baixe os arquivos.
-2. Navegue até a pasta principal do projeto.
-3. Abra o arquivo `index.html` em seu navegador preferido.
-4. Para acessar outras páginas, utilize os links do menu que direcionam para os arquivos dentro da pasta `pages/`.
+Oferecemos um ambiente online com:
 
-> ⚠️ **Importante:** Todos os links internos devem respeitar o caminho `pages/nome_do_arquivo.html`.
+- **Orientações práticas** passo a passo (sem jargões complicados)
+- **Ferramentas digitais** para monitoramento do solo, clima e ciclos da plantação
+- **Planos de ação sustentáveis** que aumentam a colheita sem agredir o meio ambiente
+- **Comunidade de apoio** entre agricultores e especialistas
+
+> ✅ Você não precisa "tocar" na planta para proteger ou ajustar nada. Nossa tecnologia faz a leitura e recomenda ações seguras e não invasivas.
 
 ---
 
-## 📄 Exemplo de Link no Menu (HTML)
+## 📈 Vantagens diretas para o agricultor
 
-```html
-<nav>
-  <ul>
-    <li><a href="index.html">Início</a></li>
-    <li><a href="pages/sobre.html">Sobre</a></li>
-    <li><a href="pages/sustentabilidade.html">Sustentabilidade</a></li>
-    <li><a href="pages/futuro.html">Futuro</a></li>
-    <li><a href="pages/contato.html">Contato</a></li>
-  </ul>
-</nav>
+| Antes (média) | Depois com CampoForte |
+|---------------|------------------------|
+| 70% de eficiência na colheita | até 99,9% de eficiência |
+| Desgaste do solo e dúvidas técnicas | Solo preservado + decisões guiadas |
+| Perdas por falta de informação | Menos retrabalho e desperdício |
+| Risco de acidentes ou excesso de esforço | Segurança e menos cansaço físico |
+
+> 🧑‍🌾 **Salvamos vidas no campo** — porque cuidar da lavoura não deve custar a saúde do agricultor. Com nosso suporte, você trabalha de forma mais inteligente, não mais pesada.
+
+---
+
+## 🎯 Para quem é este site?
+
+- ✅ Pequenos agricultores familiares
+- ✅ Produtores de médio porte
+- ✅ Grandes fazendas que buscam sustentabilidade real
+- ✅ Quem quer aumentar colheita **sem sacrificar a tecnologia** e **sem agredir a terra**
+
+---
+
+## 🌾 Próximo passo: cultive um futuro mais forte
+
+Acesse agora e comece a transformar sua produção em 3 passos simples:
+
+1. Cadastre sua área de cultivo (leva 2 minutos)
+2. Receba um diagnóstico personalizado
+3. Aplique as recomendações e veja sua colheita evoluir
+
+👉 **[QUERO AUMENTAR MINHA COLHEITA]**
+
+---
+
+## 📞 Fale com a gente
+
+- 📧 suporte@campoforte.com.br  
+- 📱 (XX) 9 9999-8888  
+- 🌐 www.campoforte.com.br  
+
+*Juntos, a gente planta tecnologia e colhe vida.*
