@@ -33,7 +33,7 @@ Oferecemos um ambiente online com:
 
 | Antes (média) | Depois com CampoForte |
 |---------------|------------------------|
-| 70% de eficiência na colheita | até 99,9% de eficiência |
+| 70% de eficiência na colheita | até 80,9% de eficiência |
 | Desgaste do solo e dúvidas técnicas | Solo preservado + decisões guiadas |
 | Perdas por falta de informação | Menos retrabalho e desperdício |
 | Risco de acidentes ou excesso de esforço | Segurança e menos cansaço físico |
