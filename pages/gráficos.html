@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Agro Forte | Lucro Sustentável & Adubação do Solo</title>
+    <!-- Chart.js CDN para gráfico profissional -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <!-- Font Awesome 6 (ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="agro-wrapper">
+        <!-- Cabeçalho hero -->
+        <div class="hero-section">
+            <h1>
+                <i class="fas fa-chart-line"></i>
+                Agro Forte, Futuro Sustentável
+            </h1>
+            <p>Equilíbrio entre produção agrícola de alta performance e preservação ambiental.<br> Estratégias regenerativas que geram lucro e saúde do solo.</p>
+            <div class="selo-sustentavel">
+                <i class="fas fa-leaf"></i> Carbono neutro + rentabilidade crescente
+            </div>
+        </div>
+
+        <div class="dashboard-grid">
+            <!-- card GRÁFICO de lucro comparativo -->
+            <div class="card grafico-card">
+                <h2><i class="fas fa-chart-simple"></i> Lucro por hectare (R$/ha)</h2>
+                <div class="grafico-area">
+                    <canvas id="lucroChart" width="500" height="300" style="max-width:100%; height:auto;"></canvas>
+                </div>
+                <div class="destaque-lucro">
+                    <span class="badge-trend"><i class="fas fa-seedling"></i> Modelo Agro Forte Sustentável</span>
+                    <div class="valor-percentual" id="valorLucroDinamico">+38%</div>
+                    <div class="descricao-lucro">maior rentabilidade em 5 safras vs manejo convencional</div>
+                </div>
+                <div class="indicadores-rapidos">
+                    <div class="indicador"><i class="fas fa-tractor"></i> Produtividade<br> <strong>+22%</strong></div>
+                    <div class="indicador"><i class="fas fa-water"></i> Retenção hídrica<br> <strong>+35%</strong></div>
+                    <div class="indicador"><i class="fas fa-coins"></i> Custo insumos<br> <strong>-18%</strong></div>
+                </div>
+            </div>
+
+            <!-- card EQUILÍBRIO produção & meio ambiente -->
+            <div class="card equilibrio-card">
+                <h2><i class="fas fa-hand-holding-heart"></i> Produção & Meio Ambiente</h2>
+                <p class="texto-equilibrio">A agricultura sustentável alia tecnologia de baixo carbono, rotação de culturas e adubação orgânica de precisão, gerando <strong>solos vivos e lucro contínuo</strong>. Com práticas agroecológicas, reduzimos emissões e aumentamos a resiliência climática.</p>
+                <div class="beneficios-box">
+                    <i class="fas fa-chart-pie"></i> <strong>Benefícios diretos do equilíbrio:</strong>
+                    <ul class="lista-check">
+                        <li><i class="fas fa-check-circle"></i> Captura de carbono no solo (sequestro ativo)</li>
+                        <li><i class="fas fa-check-circle"></i> Redução da erosão + aumento da biodiversidade</li>
+                        <li><i class="fas fa-check-circle"></i> Otimização hídrica e menor dependência de químicos</li>
+                        <li><i class="fas fa-check-circle"></i> Valorização do produto no mercado verde</li>
+                    </ul>
+                </div>
+                <div class="cota-sustentavel">
+                    <i class="fas fa-globe-americas"></i> Meta 2030: ampliar áreas de integração lavoura-pecuária-floresta em 45%.
+                </div>
+            </div>
+        </div>
+
+        <!-- SEÇÃO COMPLETA SOBRE ADUBAÇÃO DO SOLO (explicação detalhada) -->
+        <div class="adubacao-section">
+            <div class="adubacao-header">
+                <h2><i class="fas fa-seedling"></i> Adubação do Solo: base para um agro forte e sustentável</h2>
+                <p>Conheça as práticas que equilibram nutrição de cultivos e saúde ambiental</p>
+            </div>
+            <div class="adubacao-grid">
+                <div class="card-solo">
+                    <i class="fas fa-flask"></i>
+                    <h3>Adubação Orgânica</h3>
+                    <p>Utiliza composto, esterco, biofertilizantes e resíduos vegetais. Melhora a estrutura do solo, retém umidade e alimenta microrganismos benéficos.</p>
+                    <div class="dica"><i class="fas fa-lightbulb"></i> Exemplo: Compostagem de resíduos da fazenda reduz custos com fertilizantes sintéticos em até 30%.</div>
+                </div>
+                <div class="card-solo">
+                    <i class="fas fa-microscope"></i>
+                    <h3>Adubação Verde</h3>
+                    <p>Plantio de espécies como crotalária, mucuna e feijão-guandu entre safras. Fixam nitrogênio, reciclam nutrientes e evitam erosão.</p>
+                    <div class="dica"><i class="fas fa-lightbulb"></i> Rotação com adubos verdes pode aumentar a produtividade da soja em até 15%.</div>
+                </div>
+                <div class="card-solo">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Adubação de Precisão</h3>
+                    <p>Análise de solo + sensoriamento + aplicação variável (NPK + micronutrientes). Reduz desperdício, evita lixiviação e protege lençóis freáticos.</p>
+                    <div class="dica"><i class="fas fa-lightbulb"></i> Tecnologia reduz emissão de óxido nitroso (N₂O) em até 40%.</div>
+                </div>
+                <div class="card-solo">
+                    <i class="fas fa-recycle"></i>
+                    <h3>Bioinsumos & Microbioma</h3>
+                    <p>Inoculação com micorrizas, Azospirillum e Bacillus aumenta absorção de fósforo e nitrogênio, fortalecendo plantas naturalmente.</p>
+                    <div class="dica"><i class="fas fa-lightbulb"></i> Bioinsumos substituem parte da adubação mineral e estimulam raízes profundas.</div>
+                </div>
+            </div>
+
+            <!-- bloco adicional explicativo: importância do equilíbrio -->
+            <div class="explicacao-solo">
+                <i class="fas fa-quote-left"></i>
+                <p><strong>Por que a adubação sustentável é o futuro?</strong> O manejo racional do solo garante altas produtividades por décadas, mantém o carbono orgânico e reduz impactos ambientais. O equilíbrio entre produção e meio ambiente começa pela nutrição correta: adubar bem é alimentar a vida microbiana, reter água e combater mudanças climáticas.</p>
+                <div class="fonte-agro">
+                    <i class="fas fa-charging-station"></i> Agro Forte: rentabilidade aliada à regeneração do solo.
+                </div>
+            </div>
+        </div>
+
+        <footer class="rodape">
+            <p><i class="far fa-copyright"></i> 2025 - Agro Forte, Futuro Sustentável | Tecnologia e respeito ao meio ambiente</p>
+            <p>Dados baseados em práticas de lavouras com certificação carbono neutro e boas práticas de adubação regenerativa.</p>
+        </footer>
+    </div>
+</body>
+</html>
